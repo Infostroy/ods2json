@@ -1,5 +1,7 @@
 # ods2json
 
+ [![npm version](https://badge.fury.io/js/ods2json.svg)](https://www.npmjs.com/package/ods2json) [![Dependency Status](https://david-dm.org/Infostroy/ods2json.svg)](https://david-dm.org/Infostroy/ods2json)
+
 ## Installation
 
 	npm install ods2json
@@ -14,13 +16,14 @@
 
 ## Usage
 
+Export into file
 ```js
 var conv = require('ods2json');
 c = new conv;
 c.convert('sheet.ods', 'parsed.json');
 ```
 
-or
+or into stdout
 
 ```js
 var conv = require('ods2json');
