@@ -1,35 +1,3 @@
-# ods2json
-
-## Installation
-
-	npm install ods2json
-
-## Features
-
-  * Document styles exporting
-  * All formulas exported and available for use
-  * Simple JSON structure
-  * Cell data types and graphical contents exporting
-  * Media (charts, images, music, videos) exporting
-
-## Usage
-
-```js
-var conv = require('ods2json');
-c = new conv;
-c.convert('sheet.ods', 'parsed.json');
-```
-
-or
-
-```js
-var conv = require('ods2json');
-c = new conv;
-var json = c.convert('sheet.ods', false, true);
-```
-
-## License 
-
 The MIT License (MIT)
 
 Copyright (c) Infostroy Ltd.
